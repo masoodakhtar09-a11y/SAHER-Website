@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: masoodakhtar09-a11y/SAHER-Website
   branch: main
 
 media_folder: "images/uploads"
