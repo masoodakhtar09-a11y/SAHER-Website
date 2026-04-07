@@ -2,8 +2,6 @@ backend:
   name: git-gateway
   branch: main
 
-publish_mode: editorial_workflow
-
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
@@ -15,6 +13,4 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - { label: "Page Title", name: "title", widget: "string" }
-          - { label: "Main Heading", name: "heading", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Title", name: "title", widget: "string" }
